@@ -25,35 +25,35 @@ class Data:
   ├ /speedtest - To test the bot server speed
   └ /broadcast - To send a broadcast message to the bot user
   
- 👨‍💻 Developed by </b><a href='https://t.me/Campus_Bot_Updates'>Anime Campus</a>
+ ♥︎ Developed by </b><a href='https://t.me/Sensei_Rimuru'>Owner Sama</a>
 """
 
     close = [
-        [InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")]
+        [InlineKeyboardButton("❌ᴄᴀɴᴄᴇʟ", callback_data="close")]
     ]
 
     mbuttons = [
         [
-            InlineKeyboardButton("😙Hᴇʟᴘ😙", callback_data="help"),
-            InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
+            InlineKeyboardButton("⚠️ ʜᴇʟᴘ", callback_data="help"),
+            InlineKeyboardButton("❌ᴄᴀɴᴄᴇʟ", callback_data="close")
         ],
     ]
 
     buttons = [
         [
-            InlineKeyboardButton("🥀Aʙᴏᴜᴛ🥀", callback_data="about"),
-            InlineKeyboardButton("🍁Cʟᴏsᴇ🍁", callback_data="close")
+            InlineKeyboardButton("😇ᴀʙᴏᴜᴛ", callback_data="about"),
+            InlineKeyboardButton("❌ᴄʟᴏsᴇ", callback_data="close")
         ],
     ]
 
     ABOUT = """
 <b>About this Bot:
 
- @Anime_Campus_Bot is a Telegram Bot for storing posts or files that can be accessed via a special link.
+ ᴛʜɪs is a Telegram Bot for storing posts or files that can be accessed via a special link.
 
-  • Creator: @MH17_KUNAL
+  • Sensei: @Sensei_Rimuru
   • Framework: Pyrograms
-  • Channel :@Campus_Bot_Updates
+  • Channel :@Anime_Sensei_Network
 
- 👨‍💻 Developed by @Anime_Campus
+ ♥︎ Developed by Owner
 """
