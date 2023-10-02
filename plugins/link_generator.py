@@ -26,7 +26,7 @@ async def batch(client: Client, message: Message):
         if f_msg_id:
             break
         await first_message.reply(
-            "❌ <b>ERROR\n\n This Forwarded post is not from my Channel Database</b>",
+            "❌ <b>ʙᴀᴋᴋᴀ ! ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ғᴏʀ ᴀɴɪᴍᴇ sᴇɴsᴇɪ ɴᴇᴛᴡᴏʀᴋ</b>",
             quote=True,
         )
         continue
@@ -45,7 +45,7 @@ async def batch(client: Client, message: Message):
         if s_msg_id:
             break
         await second_message.reply(
-            "❌ <b>ERROR\n\n This Forwarded post is not from my Channel Database</b>",
+            "❌ <b>Eʙᴀᴋᴋᴀ ! ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ғᴏʀ ᴀɴɪᴍᴇ sᴇɴsᴇɪ ɴᴇᴛᴡᴏʀᴋ</b>",
             quote=True,
         )
         continue
@@ -57,7 +57,7 @@ async def batch(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 sʜᴀʀᴇ ʟɪɴᴋ", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
@@ -85,7 +85,7 @@ async def link_generator(client: Client, message: Message):
         if msg_id:
             break
         await channel_message.reply(
-            "❌ <b>ERROR\n\n This Forwarded post is not from my Channel Database</b>",
+            "❌ <b>ʙᴀᴋᴋᴀ ! ɪ ᴀᴍ ᴏɴʟʏ ᴡᴏʀᴋɪɴɢ ғᴏʀ ᴀɴɪᴍᴇ sᴇɴsᴇɪ ɴᴇᴛᴡᴏʀᴋ</b>",
             quote=True,
         )
         continue
@@ -96,7 +96,7 @@ async def link_generator(client: Client, message: Message):
         [
             [
                 InlineKeyboardButton(
-                    "🔁 Share Link", url=f"https://telegram.me/share/url?url={link}"
+                    "🔁 sʜᴀʀᴇ ʟɪɴᴋ", url=f"https://telegram.me/share/url?url={link}"
                 )
             ]
         ]
